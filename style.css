@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  height: 237px;
+  background-color: #2D7053;
+  justify-content: space-around;
+}
+
+.logo_1 {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+  color: white;
+  margin-right: 600px;
+}
+
+.burger_menu {
+  width: 50px;
+  height: 40px;
+  margin-top: 100px;
+}
+
+.office {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.button_1 {
+  background-color: #CB9223;
+  position: absolute;
+  margin-top: 600px;
+  left: 580px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+.button_2 {
+  background-color: #CB9223;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#footer {
+  background-color: #888888;
+  height: auto;
+}
+
+.logo_2 {
+  margin-left: 20px;
+  margin-top: 200px;
+}
+
+.adress {
+  margin-left: 800px;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 800px;
+  margin-bottom: 50px;
+}
